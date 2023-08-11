@@ -4,7 +4,7 @@ Esse repositório foi criado como parte de um teste técnico, é um aplicativo d
 
 ## Sobre o Projeto
 
-Este aplicativo foi criado como parte do meu processo de aprendizado em React Native. Antes de iniciar este projeto, eu não tinha experiência prática com React Native, mas ao longo do desenvolvimento, pude aprender e aplicar meus conhecimentos para criar esta ferramenta útil para a comunidade médica.
+Este aplicativo foi criado como parte do meu processo de aprendizado em React Native. Antes de iniciar este projeto, eu não tinha experiência prática com React Native, mas ao longo do desenvolvimento, pude aprender e aplicar meus conhecimentos para criar este aplicativo em um curto período de tempo.
 
 Para executar o HardWorkMed localmente em seu ambiente de desenvolvimento, siga estas etapas:
 
