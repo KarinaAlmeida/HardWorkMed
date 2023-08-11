@@ -81,7 +81,7 @@ export default function QuestionsPage() {
                     </View>
                 </View>
             )}
-            <ScrollView contentContainerStyle={styles.scrollViewContent}>
+            <ScrollView >
                 <QuestionsComponent
                     question={questions[0].questao}
                     alternatives={questions[0].alternativas}
