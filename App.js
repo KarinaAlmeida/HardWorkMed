@@ -1,8 +1,8 @@
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
-import HomePage from "./src/screens/home";
-import PersonalizePage from "./src/screens/personalize";
-import QuestionsPage from "./src/screens/questions";
+import HomePage from "./src/screens/home/home";
+import PersonalizePage from "./src/screens/personalize/personalize";
+import QuestionsPage from "./src/screens/questions/questions";
 
 const Stack = createStackNavigator();
 

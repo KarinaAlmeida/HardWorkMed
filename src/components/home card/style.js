@@ -1,0 +1,70 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    gradientContainer: {
+      alignItems: "center", 
+      justifyContent: "center", 
+      borderRadius: 10,
+      width: "95%",
+      height: 200,
+      marginLeft: 5,
+      marginTop: 15,
+    },
+    container: {
+      width: "100%",
+    },
+    header: {
+      flexDirection: "row",
+      alignItems: "center",
+      marginTop:0,
+    },
+    icon: {
+      marginRight: 5,
+      marginLeft: 10,
+      marginBottom:15,
+  
+    },
+    title: {
+      fontSize: 25,
+      fontWeight: "bold",
+      color: "white",
+      marginRight: 22,
+      marginBottom:15,
+    },
+    text: {
+      fontSize: 15,
+      fontWeight: "bold",
+      color: "white",
+      marginLeft: 25,
+      marginRight: 10,
+      marginBottom: 20,
+      shadowColor: 'black', 
+      shadowOffset: { width: 0, height: 2 }, 
+      shadowOpacity: 5, 
+      shadowRadius: 1, 
+      elevation:5 ,
+    },
+    button: {
+      alignSelf: "flex-end",
+      backgroundColor: "white",
+      padding: 5,
+      borderRadius: 15,
+      marginTop: 30,
+      alignItems: "center",
+      justifyContent: "center",
+      marginRight:10,
+      marginBottom:0,
+      shadowColor: 'black', 
+      shadowOffset: { width: 0, height: 2 }, 
+      shadowOpacity: 0.9, 
+      shadowRadius: 5, 
+      elevation:5 ,
+    },
+    buttonText: {
+      color: "black",
+      fontSize: 15,
+      fontWeight: "bold",
+      width: 100,
+      textAlign: "center",
+    },
+  });

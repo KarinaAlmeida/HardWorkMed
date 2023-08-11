@@ -1,8 +1,10 @@
 import React from "react";
-import { View, StyleSheet, ScrollView } from "react-native";
-import Header from "../components/header";
-import CardComponent from "../components/card";
+import { View, ScrollView } from "react-native";
+import Header from "../../components/header/header";
+import CardComponent from "../../components/home card/card";
 import { useNavigation } from "@react-navigation/native";
+import {styles} from './style.js'
+
 
 
 export default function HomePage() {
@@ -52,16 +54,16 @@ export default function HomePage() {
     )
 }
 
-const styles = StyleSheet.create({
-container: {
-    flex:1,
-    backgroundColor:'#EBEBEB',
-    color:'white',
-    borderRadius:20,
-},
-scrollViewContent: {
-    flexGrow: 1,
-    justifyContent: "space-between",
-    paddingVertical: 10,
-  },
-})
+// const styles = StyleSheet.create({
+// container: {
+//     flex:1,
+//     backgroundColor:'#EBEBEB',
+//     color:'white',
+//     borderRadius:20,
+// },
+// scrollViewContent: {
+//     flexGrow: 1,
+//     justifyContent: "space-between",
+//     paddingVertical: 10,
+//   },
+// })
