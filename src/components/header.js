@@ -12,7 +12,7 @@ export default function Header() {
             <Text style={styles.text} onPress={() => navigation.navigate("Home")}>LOGOTIPO</Text>
             </View>
             <View style={styles.home}>
-            <Icon name="bank" size={25} color="black" onPress={() => navigation.navigate("Home")} />
+            <Icon name="home" size={30} color="black" onPress={() => navigation.navigate("Home")} />
             </View>
             <View>
             <Text style={styles.textHome} onPress={() => navigation.navigate("Home")}>HOME</Text>

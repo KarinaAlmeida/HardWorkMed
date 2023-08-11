@@ -20,29 +20,29 @@ export default function HomePage() {
             <Header />
             <ScrollView contentContainerStyle={styles.scrollViewContent}>
             <CardComponent
-            icon="bank"
-            title="QUESTÕES"
+            icon="question"
+            title=" QUESTÕES"
             text="Prepare-se de forma personalizada respondendo ao banco de questões!"
             buttonText="Começar"
             onButtonPress={handleCLickQuestion}
             />
 
             <CardComponent
-            icon="bank"
-            title="PERSONALIZAR"
+            icon="list"
+            title=" PERSONALIZAR"
             buttonText="Acessar"
             onButtonPress={handleCLickPersonalize}
             />
 
             <CardComponent
-            icon="bank"
-            title="MÉTRICAS"
+            icon="bar-chart"
+            title=" MÉTRICAS"
             buttonText="Acessar"    
             />
 
             <CardComponent
-            icon="bank"
-            title="CHATBOT"
+            icon="puzzle-piece"
+            title=" CHATBOT"
             text="Treine através de trívias geradas pelo nosso chatbot do Telegram"
             buttonText="Começar"
             />
